@@ -1,0 +1,23 @@
+﻿DEBUG 2020-02-27 19:52:42,083 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-27 19:52:42,101 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2020-02-27 19:52:42,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QA.Migrator.QAMigratorModule, QA.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QA.EntityFrameworkCore.QAEntityFrameworkModule, QA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QA.QACoreModule, QA.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,143 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,144 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,144 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,146 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2020-02-27 19:52:42,346 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: QA.EntityFrameworkCore.QADbContext, QA.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-27 19:52:42,653 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2020-02-27 19:52:42,704 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-27 19:52:42,715 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-27 19:52:42,721 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QA
+INFO  2020-02-27 19:52:42,838 [1    ] QA.Migrator.Log                          - Host database: server=localhost;database=QADb;trusted_connection=True
+INFO  2020-02-27 19:52:42,839 [1    ] QA.Migrator.Log                          - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-02-27 19:52:47,040 [1    ] QA.Migrator.Log                          - HOST database migration started...
+INFO  2020-02-27 19:53:00,006 [1    ] QA.Migrator.Log                          - HOST database migration completed.
+INFO  2020-02-27 19:53:00,006 [1    ] QA.Migrator.Log                          - --------------------------------------------------------
+INFO  2020-02-27 19:53:00,039 [1    ] QA.Migrator.Log                          - All databases have been migrated.
